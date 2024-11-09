@@ -1,0 +1,10 @@
+// https://drafts.css-houdini.org/css-typed-om/#keywordvalue-objects
+// TODO: this is the exposed contexts from the spec
+// [Exposed=(Window, Worker, PaintWorklet, LayoutWorklet)]
+// PaintWorklet, LayoutWorklet are not available yet so below is a temp exposing
+[Exposed=(Window, Worker)]
+interface CSSKeywordValue : CSSStyleValue {
+    constructor(USVString value
+);
+    attribute USVString value;
+};

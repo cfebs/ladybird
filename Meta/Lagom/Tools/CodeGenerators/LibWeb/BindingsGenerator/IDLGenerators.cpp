@@ -47,6 +47,7 @@ static bool is_platform_object(Type const& type)
         "CanvasRenderingContext2D"sv,
         "CloseWatcher"sv,
         "CryptoKey"sv,
+        "CSSKeywordValue"sv,
         "DataTransfer"sv,
         "Document"sv,
         "DocumentType"sv,
